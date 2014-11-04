@@ -1,6 +1,6 @@
-/* Google Webfont Raleway ºÒ·¯¿À±â */
+/* Google Webfont Raleway ÂºÃ’Â·Â¯Â¿Ã€Â±Ã¢ */
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,800,900|Pacifico|Lato:300,400);
-/* Icon font Entypo ºÒ·¯¿À±â */
+/* Icon font Entypo ÂºÃ’Â·Â¯Â¿Ã€Â±Ã¢ */
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
 	font-family:"entypo",sans-serif
@@ -107,7 +107,7 @@ ul li,ol li {
 	margin:5px 0
 }
 
-/* Home ¼½¼ÇÀÇ h1°ú p´Â ÇÊ¿ä ¾ø¾îÁø´Ù */
+/* Home Â¼Â½Â¼Ã‡Ã€Ã‡ h1Â°Ãº pÂ´Ã‚ Ã‡ÃŠÂ¿Ã¤ Â¾Ã¸Â¾Ã®ÃÃ¸Â´Ã™ */
 /* .home h1 {
 	margin-top:40px;
 	margin-bottom:40px;
@@ -172,7 +172,7 @@ ul li,ol li {
 .main {
 	height: 100%;
 }
-/* Home ¼½¼ÇÀÇ dark Åõ¸í ·¹ÀÌ¾î Á¦°ÅÇÏ±â */
+/* Home Â¼Â½Â¼Ã‡Ã€Ã‡ dark Ã…ÃµÂ¸Ã­ Â·Â¹Ã€ÃŒÂ¾Ã® ÃÂ¦Â°Ã…Ã‡ÃÂ±Ã¢ */
 .home {
 	/* background-color:rgba(50,50,50,0.8) */
 	height: 100%;
@@ -208,7 +208,7 @@ ul li,ol li {
 	color: #3b4b5a;
 }*/
 
-/* s : Home ¼½¼ÇÀÇ ·Î°í */
+/* s : Home Â¼Â½Â¼Ã‡Ã€Ã‡ Â·ÃÂ°Ã­ */
 .home img {
 	width:250px;
 	height:auto;
@@ -218,7 +218,7 @@ ul li,ol li {
 	/* border: 1px solid red; */
 	box-sizing: border-box;
 }
-/* ½º¸¶Æ®Æù ¹Ìµğ¾îÄõ¸® */
+/* Â½ÂºÂ¸Â¶Ã†Â®Ã†Ã¹ Â¹ÃŒÂµÃ°Â¾Ã®Ã„ÃµÂ¸Â® */
 @media screen and (max-width: 30.6em) {
 	.home img {
 		width:180px;
@@ -230,9 +230,9 @@ ul li,ol li {
 		margin-top:0;
 	}
 }
-/* e : Home ¼½¼ÇÀÇ ·Î°í */
+/* e : Home Â¼Â½Â¼Ã‡Ã€Ã‡ Â·ÃÂ°Ã­ */
 
-/* s : Home ¼½¼ÇÀÇ scroll down ¹öÆ° */
+/* s : Home Â¼Â½Â¼Ã‡Ã€Ã‡ scroll down Â¹Ã¶Ã†Â° */
 .home .scrolldown {
 	position: absolute;
 	left: 0;
@@ -245,7 +245,7 @@ ul li,ol li {
 	background-size: 100%;
 	cursor: pointer;
 }
-/* ½º¸¶Æ®Æù ¹Ìµğ¾îÄõ¸® */
+/* Â½ÂºÂ¸Â¶Ã†Â®Ã†Ã¹ Â¹ÃŒÂµÃ°Â¾Ã®Ã„ÃµÂ¸Â® */
 @media screen and (max-width: 30.6em) {
 	.home .scrolldown {
 		width: 50px;
@@ -254,7 +254,7 @@ ul li,ol li {
 		background-size: 100%;
 	}
 }
-/* e : Home ¼½¼ÇÀÇ scroll down ¹öÆ° */
+/* e : Home Â¼Â½Â¼Ã‡Ã€Ã‡ scroll down Â¹Ã¶Ã†Â° */
 .home .home-title {
 	margin-bottom:20px;
 	font-family:"Raleway",sans-serif;
@@ -311,13 +311,13 @@ ul li,ol li {
 	border-bottom:solid 2px #fff
 }
 .slide-1 {
-	background-color:#1abc9c
+	background-color:#fff
 }
 .slide-1 img {
-	border:solid 2px #18aa8d
+	border:solid 2px #fff
 }
 .slide-1 .team-bio {
-	margin-top:10px;
+	margin-top:50px;
 	height:auto;
 	border:solid 2px #15987e;
 	background-color:#17a689
@@ -327,91 +327,104 @@ ul li,ol li {
 	padding:15px;
 	margin-bottom:0
 }
-@media (min-width: 768px) {
-	.slide-1 .team-bio {
-	margin-top:50px
-	}
-}
 .slide-1 .team-overlay {
 	position:absolute;
 	top:0;
 	left:15px;
 	right:15px;
 	height:100%;
-	background-color:rgba(60,60,60,0.8)
+	background-color:rgba(249,191,33,0.8)
 }
 .slide-1 .team-overlay .social {
-	margin-top:25px
+	margin-top:20px
 }
-@media (min-width: 992px) {
-	.slide-1 .team-overlay .social {
-	margin-top:40px
-	}
-}
-@media (min-width: 1200px) {
-	.slide-1 .team-overlay .social {
-	margin-top:70px
-	}
-}
+
 .slide-1 .team-overlay hr {
-	width:20%;
-	margin:10px auto;
-	border-top:2px solid #eee
+	width:15%;
+	margin-top: 15px;
+	margin-bottom:13px;
+	margin-left:32px;
+	border-top:2px solid #3e3e3e
 }
 .slide-1 .team-overlay ul {
 	padding:0;
-	text-align:center
+	margin-left:32px;
+	text-align:left;
 }
 .slide-1 .team-overlay li {
 	display:inline-block;
 	margin:0
 }
 .slide-1 .team-overlay li a {
-	width:30px;
-	height:30px;
-	padding-top:5px;
+	width:50px;
+	height:50px;
+	padding-top:15px;
 	display:block;
 	-webkit-transition:all,400ms;
 	-moz-transition:all,400ms;
 	-o-transition:all,400ms;
 	transition:all,400ms;
 	font-size:20px;
-	font-size:2rem;
-	line-height:22px;
-	line-height:2.2rem
 }
 .slide-1 .team-overlay li a:hover {
-	background-color:#1abc9c;
 	color:#fff
 }
-@media (min-width: 992px) {
-	.slide-1 .team-overlay li a {
-	padding-top:10px;
-	width:50px;
-	height:50px;
-	font-size:28px;
-	font-size:2.8rem;
-	line-height:34px;
-	line-height:3.4rem
-	}
-}
-.slide-1 .team-overlay .team-title,.slide-1 .team-overlay .team-name {
+
+.slide-1 .team-overlay .nameE{
+	padding-left: 32px;
 	display:block;
 	width:100%;
-	text-align:center;
+	text-align:left;
 	font-family:"Raleway",sans-serif;
-	font-size:10px;
-	font-size:1rem;
+	font-size:11px;
 	text-transform:uppercase;
-	letter-spacing:2px;
-	font-weight:700
+	letter-spacing:0.2px;
+	font-weight:700;
+	color:#3e3e3e;
+
+
 }
-@media (min-width: 992px) {
-	.slide-1 .team-overlay .team-title,.slide-1 .team-overlay .team-name {
-	font-size:14px;
-	font-size:1.4rem
-	}
+
+.slide-1 .team-overlay .name{
+	display:block;
+	width:100%;
+	padding-left: 32px;
+	text-align:left;
+	font-family:"Nanum Gothic", NanumGothic, ë‚˜ëˆ”ê³ ë”•, ë‹ì›€,sans-serif;
+	font-size:25px;
+	text-transform:uppercase;
+	letter-spacing:0.2px;
+	font-weight:600;
+	color:#3e3e3e;
 }
+.slide-1 .team-overlay .work-title{
+	display:block;
+	width:100%;
+	text-align:left;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:20px;
+	text-transform:uppercase;
+	letter-spacing:0.2px;
+	font-weight:300;
+	color:#fff;
+	padding-left: 32px;
+	padding-top: 0px;
+}
+
+.slide-1 .team-overlay .work-name{
+	display:block;
+	width:100%;
+	text-align:left;
+	font-family:"Nanum Gothic", NanumGothic, ë‚˜ëˆ”ê³ ë”•, ë‹ì›€,sans-serif;
+	font-size:15px;
+	text-transform:uppercase;
+	letter-spacing:0.2px;
+	font-weight:400;
+	color:#fff;
+	padding-left: 32px;
+	padding-top: 10px;
+}
+
 .slide-2 {
 	background-color:#3c3c3c
 }
@@ -470,7 +483,7 @@ ul li,ol li {
 	font-size:7.2rem;
 	line-height:150px;
 	line-height:15rem;
-	color:#fff;
+	color:#f9bf21;
 	text-align:center
 }
 @media (min-width: 992px) {
@@ -577,7 +590,7 @@ ul li,ol li {
 
 
 
-/* s : Contact ¼½¼Ç */
+/* s : Contact Â¼Â½Â¼Ã‡ */
 .contact {
 	background-color:#333
 }
@@ -821,7 +834,7 @@ ul li,ol li {
 .contact .social .instagrem:hover {
 	background-color:#3f729b
 }
-/* e : Contact ¼½¼Ç */
+/* e : Contact Â¼Â½Â¼Ã‡ */
 
 
 
@@ -831,7 +844,7 @@ ul li,ol li {
 
 
 
-/* s : ½ºÅ©·Ñ ³×ºñ°ÔÀÌ¼Ç */
+/* s : Â½ÂºÃ…Â©Â·Ã‘ Â³Ã—ÂºÃ±Â°Ã”Ã€ÃŒÂ¼Ã‡ */
 .sideMenu {
 	background: transparent;
 	border-left: none;
@@ -906,10 +919,10 @@ ul li,ol li {
 	border-radius: 3px;
 	background: #808080;
 }
-/* e : ½ºÅ©·Ñ ³×ºñ°ÔÀÌ¼Ç */
+/* e : Â½ÂºÃ…Â©Â·Ã‘ Â³Ã—ÂºÃ±Â°Ã”Ã€ÃŒÂ¼Ã‡ */
 
 
-/* s : ·¹ÀÌ¾î ÆË¾÷ ¹Ú½º */
+/* s : Â·Â¹Ã€ÃŒÂ¾Ã® Ã†Ã‹Â¾Ã· Â¹ÃšÂ½Âº */
 .modal-dialog {
 	padding-top:20px
 }
@@ -950,7 +963,7 @@ ul li,ol li {
 }
 .modal-content .modal-header hr {
 	width:100px;
-	margin-top:10px;
+	margin-top:px;
 	margin-bottom:10px
 }
 @media (min-width: 768px) {
@@ -976,7 +989,7 @@ ul li,ol li {
 	margin:0 auto;
 	margin-bottom:15px
 }
-/* e : ·¹ÀÌ¾î ÆË¾÷ ¹Ú½º */
+/* e : Â·Â¹Ã€ÃŒÂ¾Ã® Ã†Ã‹Â¾Ã· Â¹ÃšÂ½Âº */
 
 
 .cbp-qtrotator {
@@ -1058,7 +1071,7 @@ ul li,ol li {
 	float:right;
 	margin-left:3em
 }
-/* ½º¸¶Æ®Æù ¹Ìµğ¾îÄõ¸® */
+/* Â½ÂºÂ¸Â¶Ã†Â®Ã†Ã¹ Â¹ÃŒÂµÃ°Â¾Ã®Ã„ÃµÂ¸Â® */
 @media screen and (max-width: 30.6em) {
 	.cbp-qtrotator {
 		font-size:70%
